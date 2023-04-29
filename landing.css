@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #3759d8, #1d79e9, #2696f3, #4db2fa, #79ccfe);
+}
+
+.container
+{
+    padding: 20px;
+    border: 2px solid #114797;
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
